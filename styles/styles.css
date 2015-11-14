@@ -1,0 +1,69 @@
+body {
+    background: #D9CEFF;
+    font-size: 100%; /* DO NOT change */
+    margin: 0; /* DO NOT change */
+} 
+h1{
+	color:#4A4657;
+	text-align:center;
+	}
+h2 {
+	color:#fff;
+	text-align:center;
+	}
+h3 {
+    color:#4A4657;
+    text-align:center;
+    }
+#intro { 
+    background:#4A4657;
+    color:#fff;
+    padding:20px;
+    width:45%;
+    margin:55px;
+    float:right;
+    }
+
+#image1 {
+		margin:30px;
+		}
+#album {
+ 		float:right;
+ 		margin:35px;
+ 		}
+#audio {
+ 		float:right;
+ 		padding:20px;
+ 		}
+
+#listen {
+		margin: 30px;
+		}
+.robertfrancis {
+	display: block;
+	float: left;	
+	position: relative;
+	
+	}
+ footer {
+         color:#4A4657;
+         margin:30px;
+         }
+a:link {
+    color: #4A4657;
+}
+@media (max-width: 627px)
+{
+#intro { width:70%;
+margin:37px;}
+h1 {margin:30px;}
+h3 {margin:30px;}
+#image1 {display:none;}
+#album {margin:60px;}
+#audio {float:left;}
+footer {display:none;}
+}
+
+
+
+
